@@ -1,0 +1,129 @@
+body {
+	font-family: sans-serif;
+	font: arial;
+	}
+
+#cheque {
+	position: relative;
+	width: 7in;
+	height: 3in;
+	border-style: groove;
+	border-width: medium;
+	}
+
+DIV.account {
+	position: absolute;
+	top: .1in;
+	left: .25in;
+	font-weight: bolder;
+	}
+
+DIV.date {
+	position: absolute;
+	top: .1in;
+	left: 4.75in;
+	width: 2in;
+	text-align: right;
+	border-bottom: thin solid;
+	}
+
+DIV.payto {
+	position: absolute;
+	top: .7in;
+	left: .5in;
+	font-variant: small-caps;
+	font-size: smaller;
+	width: 4.6in;
+	height: .5in;
+	text-align: left;
+	border-bottom: thin solid black;
+	}
+	
+DIV.numberamount {
+	position: absolute;
+	top: .7in;
+	left: 5.3in;
+	width: 1.25in;
+	height: .5in;
+	text-align: bottom;
+	border-bottom: thin solid;
+	font-variant: small-caps;
+	}
+	
+DIV.writtenamount {
+	position: absolute;
+	top: 1.3in;
+	left: .5in;
+	width: 4.5in;
+	height: .4in;
+	border-bottom: thin solid;
+	}
+	
+DIV.currency {
+	position: absolute;
+	top: 1.3in;
+	left: 5.05in;
+	height: .4in;
+	text-align: left;
+	vertical-align: bottom;
+	text-variant: small-caps;
+	}
+	
+DIV.system {
+	position: absolute;
+	top: 1.75in;
+	width: 7in;
+	text-align: center;
+	font-style: italic;
+	font-size: larger;
+	font-weight: bolder;
+	}
+
+DIV.url {
+	position: absolute;
+	top: 1.95in;
+	width: 7in;
+	text-align: center;
+	font-size: smaller;
+	text-decoration: underline;
+	}
+
+DIV.memo {
+	position: absolute;
+	top: 2.4in;
+	left: .25in;
+	border-bottom: thin solid;
+	width: 3.7in;
+	font-variant: small-caps;
+	font-weight: bolder;
+	font-size: smaller;
+	}
+
+DIV.signature {
+	position:absolute;
+	top: 2.4in;
+	left: 4.2in;
+	width: 2.55in;
+	border-bottom: thin dotted;
+	font-variant: small-caps;
+	font-weight: bolder;
+	font-size: smaller;
+	}
+	
+DIV.expiry {
+	position:absolute;
+	top: 2.7in;
+	left: .25in;
+	width: 1.75in;
+	text-align: right;
+	font-size: xx-small;
+	}
+
+DIV.number {
+	position: absolute;
+	top: 2.7in;
+	left: 5.5in;
+	width: 1.25in;
+	text-align: right;
+	font-weight: bolder;
+	}

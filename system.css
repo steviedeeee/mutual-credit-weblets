@@ -1,0 +1,89 @@
+
+TABLE.Menu {
+        text-align: center;
+        vertical-align: middle;
+        font-family: serif;
+        font-style: normal;
+        font-size: medium;
+        width:100px
+        }
+TD.Menu {
+        background-color: white;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 3px;
+        border: ;
+        width: 100%;
+        }
+A.Menu {
+        text-decoration: none;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: smaller;
+        font-weight: bold;
+        color: #000080;
+        }
+TD.Title {
+        text-align: center;
+        vertical-align: middle;
+        font-family: cursive;
+        font-style: italic;
+        font-size: xx-large;
+        font-weight: bold;
+        color: #800080;
+        }
+TD.Logo {
+        text-align: center;
+        vertical-align: middle;
+        font-family: cursive;
+        font-style: italic;
+        font-size: xx-large;
+        font-weight: bold;
+        color: #800080;
+        }
+TD.Data {
+        width=100%;
+        text-align: left;
+        vertical-align: top;
+        }
+
+TH.Banner {
+        text-align: center;
+        background-color: #D3D3D3;
+        }
+TH.LightBanner {
+        text-align: left;
+        background-color: #F0F0F0;
+        }
+TH.FormLabel {
+        text-align: left;
+        }
+
+TH.BulletinBanner {
+        font-size: large;
+        font-weight: x-bold;
+        background-color: #008080;
+        font-family: sans-serif;
+        }
+TD.BulletinHigh {
+        font-size: small;
+        font-family: sans-serif;
+        background-color: #F0F0F0;
+        }
+TD.BulletinLow {
+        font-size: x-small;
+        font-family: sans-serif;
+        background-color: #FFFFFF;
+        }
+STRONG.BulletinHigh {
+        }
+EM.BulletinLow {
+        }
+STRONG.BulletinHigh {
+        }
+EM.BulletinLow {
+        }
+FONT.BulletinSmall {
+        font-family: sans-serif;
+        font-size: xx-small;
+        }

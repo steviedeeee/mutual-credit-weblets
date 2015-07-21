@@ -1,0 +1,15 @@
+1.2
+  - minor bug fixes
+  - added chequing system
+  - added script to e-mail forgotten login information
+  	
+1.1 
+  - added account renewal system
+  - added account closure
+  - made transaction fee a separate column in account history
+  - filtered out system-wide and account closure transacations in reporting
+  - cleaned up SQL statements for table flexibility
+  - block charges to zero-credit limit accounts
+
+1.0
+  - First release of WebLETS software

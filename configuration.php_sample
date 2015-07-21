@@ -1,0 +1,93 @@
+<?
+/* This is the configuration file for the web-enabled LETS system.  It includes
+database access information, and global information that is used frequently by
+the system software.  */
+
+###################################################
+# LETS SYSTEM INFORMATION
+#
+# SYSTEM NAME (used as title on all pages)
+
+$Systemname = "";
+
+# SYSTEM ACCOUNT
+# This is the account number for the LETS System account, to which all transaction
+# fees and administration fees will be credited
+
+$SystemAccountID = "";
+
+# SYSTEM E-MAIL
+# This is the e-mail address for contacting the directors of the system, NOT
+# the software administrator, which is the admin_email
+
+$SystemEmail = "";
+
+# ADMIN E-MAIL
+# The Admin E-mail is used to send error messages and reports about the system
+# software.  This should most likely be set to the person who set up and configured
+# the system.
+
+$admin_email = "";
+
+####################################################
+# SOFTWARE AND WEBSITE CONFIGURATION
+#
+# BASE URL ADDRESS
+# http directory information for system pages
+
+$baseURL = "www.somewhere.net/LETSYSTEM";
+
+# LOGO FILE
+# name of the file containing the system logo, which appears in the upper left
+# corner of all pages
+
+$logofile = "logo.jpg";
+
+# BACKGROUND IMAGE
+# name of the file containing the background image for the website
+
+$background = "background.jpg";
+
+# BACKGROUND COLOUR
+# this is the hex colour code that is called by the header.php file to use as a
+# background if there is no image
+
+$backgroundcolor = "#FFFFFF";
+
+# DATABASE NAME
+# The name of the MySQL database that stores LETS information
+
+$database = "lets";
+
+# HOST NAME
+# The server on which the MySQL database server is running
+
+$host = "db.somewhere.net";
+
+# USER NAME
+# The MySQL user name for access to the database named above
+
+$user = "user";
+
+# PASSWORD
+# The MySQL password for the aforementioned user
+
+$password = "password";
+
+#############################################################
+# DEBUG SYSTEM
+# Note: This section is not administered by the constants.php system.  Debugging
+# can be turned on or off by editing this file manually.
+
+        $debug = FALSE;
+        error_reporting(1);  /*Display Normal Errors Only*/
+
+        if ($debug)
+        {
+            ?>DEBUG INFO<br><?
+            # phpinfo(); /* Lots of info... too much! */
+            error_reporting(255); /*Display All Errors*/
+            ?>END DEBUG INFO<p><?
+        }
+
+?>

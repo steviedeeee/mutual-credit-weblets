@@ -1,0 +1,61 @@
+At present, the "webLETS" system:
+
+* maintains membership and account records, including
+  -addresses
+  -phone numbers
+  -all personal information is user-editable
+  -a personal profile (that can be made viewable by the general public)
+  -multiple members of each account
+  -multiple account types with unique service fees
+  -monitors account expiration
+  -account renewal including debiting of renewal fees
+  -closure of accounts (transfer balance to system account)
+  -listing of expired accounts
+
+* provides all accounting functions for the community currency, including
+  -double entry bookkeeping
+  -user entered trades
+  -account history configurable by date
+  -membership viewing of account balances and trading volumes
+  -processing of configurable transaction fees and service charges
+  -"admin" level system for easy entry of multiple trades
+  -reversal of trades
+  -personalize cheque printing
+  -recipient entry of cheques
+  
+* provides easy reporting on a variety of system statistics (by time period)
+
+* maintains advertisement directory, including
+  -member level editting of own ads
+  -advertisements "active" by time period
+  -linking between advertisments and account details
+  -unlimited categories of advertisements, in a two level hierarchy
+  -view ads by category,member,or keyword
+  -general public viewing of ads with no contact information
+
+* enables communication between System and members, through
+  -an internal "mailing" system that
+    * offers users choice of delivery method (e-mail/land mail/none)
+    * can attach an account statement
+    * can attach a membership phone list
+    * can attach a directory of advertisements
+    * automatically charges for system mailings (can be overridden)
+    * can attach up to four other files of any type
+    * automatically produces all files needed for a land mailing
+  -system bulletins that appear on every member's "home page"
+  -a hierarchical "information system" providing public information
+  -users can request forgotten login information be mailed to
+	them
+
+* dual-level password protected administration
+  -data entry
+    * trade entry and reversal
+    * advertisement administration
+    * report production
+  -full system administration:  all of the above plus
+    * system constants configuration
+    * information system setup
+    * member and account administration
+    * communication systems
+    * other configuration noted above
+  -logging of administrative actions

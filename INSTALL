@@ -1,0 +1,11 @@
+INSTALL
+
+To run webLETS you will need;
+1. a directory on a webserver running PHP and MySQL
+2. a MySQL database, and at least one user with table modification priviledges.
+
+To install webLETS:
+1.  untar the package in the directory you wish the system to reside (This must be under your server's Document Root)
+2.  set the permissions on the directory for global read/write access (chmod 777 your-directory)
+3.  point your web browser to install.php, and follow the directions.
+
